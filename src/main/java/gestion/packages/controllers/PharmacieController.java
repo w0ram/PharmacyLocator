@@ -25,7 +25,7 @@ import gestion.packages.services.PharmacieService;
 
 @RestController
 @RequestMapping("api/pharmacie")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin()
 public class PharmacieController {
 	@Autowired
 	private PharmacieService pharmService;
