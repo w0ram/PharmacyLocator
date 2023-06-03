@@ -15,7 +15,7 @@ import gestion.packages.services.GardeService;
 
 @RestController
 @RequestMapping("api/garde")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin()
 public class GardeController {
 	@Autowired
 	private GardeService gardeServ;
