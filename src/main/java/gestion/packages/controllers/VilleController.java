@@ -20,7 +20,7 @@ import gestion.packages.services.VilleService;
 
 @RestController
 @RequestMapping("api/ville")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 public class VilleController {
 	@Autowired
 	private VilleService villeServ;
