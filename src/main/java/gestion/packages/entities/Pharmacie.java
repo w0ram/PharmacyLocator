@@ -28,6 +28,7 @@ public class Pharmacie {
 	private String adress;
 	private Double latitude;
 	private Double longitude;
+	@Column(length = 65535)
 	private String image;
 
 	@ManyToOne
