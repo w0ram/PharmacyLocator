@@ -20,7 +20,7 @@ import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
 @RestController
 @RequestMapping("api/GardePharmacie")
-@CrossOrigin()
+@CrossOrigin
 public class DateGardeController {
     @Autowired
     private DateGardeService dateGardeService;
